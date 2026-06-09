@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
-import { ThemeProvider, useTheme } from "../src/context/ThemeContext";
+import { ThemeProvider } from "../src/context/ThemeContext";
 import { AuthProvider } from "../src/context/AuthContext";
 import ThemeToggle from "../src/components/ThemeToggle";
 import { type ReactNode } from "react";

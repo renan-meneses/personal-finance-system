@@ -1,4 +1,3 @@
-import { useTheme } from "../context/ThemeContext";
 import ThemeToggle from "./ThemeToggle";
 import { useAuth } from "../context/AuthContext";
 
@@ -7,7 +6,6 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const { theme } = useTheme();
   const { profile, logout } = useAuth();
 
   return (

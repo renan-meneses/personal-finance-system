@@ -16,7 +16,6 @@ from apps.finance.serializers import (
     CreditCardStatementSerializer, FinancialGoalSerializer,
     InvestmentPortfolioSerializer, NotificationSerializer,
 )
-from apps.transactions.models import Transaction
 from mongodb_utils.client import get_mongo_db
 
 
